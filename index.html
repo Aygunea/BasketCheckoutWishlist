@@ -14,26 +14,31 @@
 <body>
     <header>
         <nav>
-            <div class="logo">Logo</div>
-            <div class="cart">
-                <div class="cart-box">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                    <span id="cart-count">0</span>
-                </div>
-                <div id="dropdown-cart">
-                    <div id="cart-items">
+            <div class="logo">
+                <a href="index.html">Logo</a>
+            </div>
+            <div class="nav-end">
+                <button id="whislist"><i class="fa-solid fa-heart"></i></button>
+                <div class="cart">
+                    <div class="cart-box">
+                        <i class="fa-solid fa-basket-shopping"></i>
+                        <span id="cart-count">0</span>
+                    </div>
+                    <div id="dropdown-cart">
+                        <div id="cart-items">
+
+                        </div>
+                        <p class="cart-total">
+                            Toplam - <span id="total-price"></span> $
+                        </p>
+                        <p class="total-count">
+                            <span id="unique-product-count">0</span>
+                            different product
+                        </p>
+                        <button id="delete-all">Delete All</button>
+                        <button id="go-to-checkout">Checkout</button>
 
                     </div>
-                    <p class="cart-total">
-                        Toplam - <span id="total-price"></span> $
-                    </p>
-                    <p class="total-count">
-                        <span id="unique-product-count">0</span>
-                        different product
-                    </p>
-                    <button id="delete-all">Delete All</button>
-                    <button id="go-to-checkout">Checkout</button>
-
                 </div>
             </div>
         </nav>
@@ -51,7 +56,7 @@
             </button>
         </div>
         <div class="card" data-id="2">
-            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/397647/04/sv01/fnd/PNA/fmt/png/Palermo-Women's-Leather-Sneakers"
+            <img src="images/Palermo2.avif"
                 alt="">
             <h2 class="title">Palermo Women's Leather Sneakers</h2>
             <div class="info">A terrace legend from our archives returns: The Palermo. The silhouette debuted back in
@@ -74,9 +79,8 @@
             </button>
         </div>
     </section>
-    <script src="script.js"></script>
-    <script src="./checkout.js"></script>
-    <script src="./whislist.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/checkout.js"></script>
 </body>
 
 </html>

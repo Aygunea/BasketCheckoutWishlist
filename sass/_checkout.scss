@@ -1,27 +1,7 @@
-.add-to-whislist {
-  border: none;
-  background: none;
-  width: max-content;
-  i {
-    color: orange;
-    font-size: 22px;
-  }
-}
-.whislist {
-  flex-direction: column;
-}
-#whislist {
-  border: none;
-  background: none;
-  width: max-content;
-  color: #fff;
-  font-size: 22px;
-}
-
 .container {
   padding: 50px 80px;
 }
-#whislist-delete-all {
+#checkout-delete-all {
   width: max-content;
   background-color: #000;
   padding: 5px 10px;
@@ -31,9 +11,9 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
 }
-#whislist-items {
+#checkout-items {
   width: 100%;
-  .whislist-product {
+  .checkout-product {
     border: 1px solid rgb(229, 231, 235);
     padding: 20px;
     display: flex;
@@ -49,15 +29,16 @@
       padding: 5px 10px;
       border: none;
       color: #fff;
-      margin-right: 10px;
       &:hover {
         background-color: rgba(0, 0, 0, 0.8);
       }
     }
-    .add-to-cart-from-whislist {
+    .delete-checkout-product {
       background-color: orange;
     }
-    .whislist-card-body {
+    .checkout-card-body {
+    //   width: 100%;
+
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -69,3 +50,6 @@
     }
   }
 }
+// #checkout-delete-all{
+
+// }
