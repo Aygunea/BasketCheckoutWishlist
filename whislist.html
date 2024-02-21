@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sass/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Basket</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo</div>
+            <div class="cart">
+                <div class="cart-box">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <span id="cart-count">0</span>
+                </div>
+                <div id="dropdown-cart">
+                    <div id="cart-items">
+
+                    </div>
+                    <p class="cart-total">
+                        Toplam - <span id="total-price"></span> $
+                    </p>
+                    <!-- <div id="delete-all">Delete All</div> -->
+                    <p class="total-count">
+                        <span id="unique-product-count">0</span> 
+                        different product
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="products whislist">
+        <div class="card" data-id="1">
+            <img src="/images/Palermo.avif"
+                alt="">
+            <h2 class="title">Palermo Women's Sneakers</h2>
+            <div class="info">A terrace legend from our archives returns: The Palermo. The silhouette debuted back in
+                the early '80s, where it</div>
+            <div class="price">$90</div>
+            <button class="add-to-cart button">Add to cart</button>
+        </div>
+        <div class="card" data-id="2">
+            <img src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/397647/04/sv01/fnd/PNA/fmt/png/Palermo-Women's-Leather-Sneakers"
+                alt="">
+            <h2 class="title">Palermo Women's Leather Sneakers</h2>
+            <div class="info">A terrace legend from our archives returns: The Palermo. The silhouette debuted back in
+                the early '80s, where it</div>
+            <div class="price">$90</div>
+            <button class="add-to-cart button">Add to cart</button>
+        </div>
+        <div class="card" data-id="3">
+            <img src="images/Palermo3.avif" alt="">
+            <h2 class="title">Palermo Women's Leather Sneakers</h2>
+            <div class="info">A terrace legend from our archives returns: The Palermo. The silhouette debuted back in
+                the early '80s, where it</div>
+            <div class="price">$90</div>
+            <button class="add-to-cart button">Add to cart</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
